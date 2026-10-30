@@ -17,6 +17,8 @@ DISTFILES=	${PORTNAME}-node-modules-${DISTVERSION}.tar.xz
 BUILD_DEPENDS=	electron${ELECTRON_VER_MAJOR}:devel/electron${ELECTRON_VER_MAJOR}
 RUN_DEPENDS=	electron${ELECTRON_VER_MAJOR}:devel/electron${ELECTRON_VER_MAJOR} \
 		git:devel/git \
+		rg:textproc/ripgrep \
+		gh:devel/gh \
 		${LOCALBASE}/lib/libwayland-client.so:graphics/wayland
 
 USES=		desktop-file-utils gmake nodejs:build pkgconfig python:build
@@ -75,7 +77,7 @@ do-build:
 	@${ECHO_MSG} "===> Preparando conteudo para app.asar"
 	node ${FILESDIR}/prepare-asar-dir.mjs ${WRKSRC}
 	@${ECHO_MSG} "===> Empacotando app.asar"
-	asar pack --unpack-dir "{node_modules/node-pty,node_modules/@parcel/watcher,resources/bin}" \
+	asar pack --unpack-dir "{out,node_modules/node-pty,node_modules/@parcel/watcher,resources/bin}" \
 		${WRKSRC}/dist-asar ${WRKSRC}/app.asar
 
 do-install:

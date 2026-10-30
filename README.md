@@ -57,7 +57,7 @@ Se você já usa FreeBSD 15+ (amd64) com interface gráfica (X11 ou Wayland), po
 
 ### 1. Instalar dependências de sistema
 ```bash
-doas pkg install -y electron42 git wayland desktop-file-utils
+doas pkg install -y electron42 git ripgrep gh wayland desktop-file-utils
 ```
 
 ### 2. Instalar o pacote do Orca ADE

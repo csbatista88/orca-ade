@@ -1,0 +1,14 @@
+# FreeBSD Ports build artifacts
+work/
+*.bak
+*.orig
+*.rej
+*.core
+*.tmp
+a.out
+
+# Editor and OS temporary files
+.DS_Store
+Thumbs.db
+*~
+.#*

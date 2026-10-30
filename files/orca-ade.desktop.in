@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Orca ADE
+Comment=Agent Development Environment for parallel AI coding agents
+Exec=%%PREFIX%%/bin/orca-ade %F
+Icon=orca-ade
+Type=Application
+StartupNotify=true
+Categories=Development;IDE;
+MimeType=text/plain;inode/directory;

@@ -1,0 +1,11 @@
+Orca is a next-generation Agent Development Environment (ADE) designed
+to orchestrate and manage fleets of AI coding agents (such as Claude Code,
+Grok Bot, Codex, and others) concurrently in isolated Git worktrees.
+
+Features:
+- Parallel execution of autonomous coding agents
+- Native terminal integration with pseudo-terminals
+- Git worktree automation and isolation
+- Integrated editor and diff view
+
+WWW: https://github.com/stablyai/orca

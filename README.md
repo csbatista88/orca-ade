@@ -14,7 +14,7 @@ Este repositório contém o **FreeBSD Port oficial (`editors/orca-ade`)** e os b
 
 * **Repositório Original:** [stablyai/orca](https://github.com/stablyai/orca) (Release `v1.4.244`)
 * **Autor Original:** [Lovecast Inc.](https://github.com/stablyai)
-* **Mantenedor do Port FreeBSD:** Christian Batista (`christian@FreeBSD.org`)
+* **Mantenedor do Port FreeBSD:** Christian Batista (`me@christianbatista.com`)
 
 ---
 
@@ -112,7 +112,7 @@ doas make install clean
 │   └── orca-ade-1.4.244.pkg     # Pacote binário oficial pronto para instalação
 ├── screenshots/
 │   └── orca-ade-freebsd-x11.png # Screenshot do Orca ADE aberto no FreeBSD X11
-├── LICENSE                      # Licença MIT
+├── LICENSE                      # Licença MIT (Upstream) e BSD 2-Clause (Port)
 └── README.md                    # Esta documentação
 ```
 
@@ -121,5 +121,5 @@ doas make install clean
 ## 📄 Licença / License
 
 * O software original **Orca** é licenciado sob a licença **MIT** pela **Lovecast Inc.**
-* Os scripts de adaptação, empacotamento e arquivos do FreeBSD Port também são distribuídos sob a licença **MIT**.
-* Veja o arquivo [LICENSE](LICENSE) para detalhes completos.
+* Os scripts de adaptação, empacotamento e arquivos do FreeBSD Port são distribuídos sob a licença **BSD 2-Clause** por Christian Batista (`me@christianbatista.com`).
+* Veja o arquivo [LICENSE](LICENSE) para os termos e detalhes completos.

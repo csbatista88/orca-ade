@@ -3,7 +3,7 @@ DISTVERSIONPREFIX=	v
 DISTVERSION=	1.4.244
 CATEGORIES=	editors devel
 
-MAINTAINER=	christian@FreeBSD.org
+MAINTAINER=	me@christianbatista.com
 COMMENT=	Next-gen Agent Development Environment (ADE) for AI coding agents
 WWW=		https://github.com/stablyai/orca
 
